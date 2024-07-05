@@ -1,0 +1,45 @@
+ /* WelcomePage.css */
+
+/* Container for the welcome page */
+.welcome-page-container {
+  display: flex; /* Flexbox layout for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 110vh; /* Full viewport height with some extra */
+  background-image: url('/home/vinaykumar/Pictures/Images/welcome1.jpg'); /* Background image for the welcome page */
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+}
+
+/* Styling for the welcome message box */
+.welcome-message {
+  text-align: center; /* Center align text */
+  background: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+  padding: 30px; /* Padding inside the box */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for the heading */
+.welcome-message h1 {
+  font-size: 3.5em; /* Large font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: black;
+}
+
+/* Styling for the button */
+.welcome-message button {
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 1em; /* Standard font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover effect for the button */
+.welcome-message button:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}

@@ -1,0 +1,53 @@
+
+/* DatabaseSelector.css */
+
+.database-selector-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('/home/vinaykumar/Pictures/Images/database.jpg'); /* Path to DatabaseSelector background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.database-selector-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f4f4f4;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.database-selector-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.database-selector-container select {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+}
+
+.database-selector-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.database-selector-container button:hover {
+  background-color: #0056b3;
+}

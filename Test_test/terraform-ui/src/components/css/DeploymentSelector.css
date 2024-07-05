@@ -1,0 +1,53 @@
+
+/* DeploymentSelector.css */
+
+.deployment-selector-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('/home/vinaykumar/Pictures/Images/deployment.jpg'); /* Path to DeploymentSelector background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.deployment-selector-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.deployment-selector-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deployment-selector-container select {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+}
+
+.deployment-selector-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.deployment-selector-container button:hover {
+  background-color: #0056b3;
+}
